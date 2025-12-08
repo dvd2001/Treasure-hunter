@@ -48,7 +48,16 @@ class DescriptionScene extends Phaser.Scene {
             this.scene.start('home');
         });
 
-        backBtnBg.setDepth(1);
-        backBtnText.setDepth(2);
+        const textBg = this.add.rectangle(0, 0, descriptionText.width + 40, 700, 0x000088);
+        textBg.setAlpha(0.5);
+        Phaser.Display.Align.In.Center(textBg, bg);
+
+        textBg.setDepth(1);
+        titleText.setDepth(2);
+        welcomeText.setDepth(2);
+        descriptionText.setDepth(2);
+        goodLuckText.setDepth(2);
+        backBtnBg.setDepth(2);
+        backBtnText.setDepth(3);
     }
 }
