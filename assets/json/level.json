@@ -10,61 +10,89 @@
     "spikes": [
         {
             "x": 480,
-            "y": 540
+            "y": 540,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 570,
-            "y": 450
+            "y": 450,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 600,
-            "y": 420
+            "y": 420,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 270,
-            "y": 210
+            "y": 210,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 210,
-            "y": 240
+            "y": 240,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 210,
-            "y": 180
+            "y": 180,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 330,
-            "y": 240
+            "y": 240,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 900,
-            "y": 390
+            "y": 390,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 930,
-            "y": 390
+            "y": 390,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 960,
-            "y": 390
+            "y": 390,
+            "interval": 2000,
+            "lilfespan": 1000
         }
     ],
     "fires": [
         {
             "x": 600,
-            "y": 245
+            "y": 245,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 630,
-            "y": 245
+            "y": 245,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 660,
-            "y": 245
+            "y": 245,
+            "interval": 2000,
+            "lilfespan": 1000
         },
         {
             "x": 690,
-            "y": 245
+            "y": 245,
+            "interval": 2000,
+            "lilfespan": 1000
         }
     ],
     "dragons": [
