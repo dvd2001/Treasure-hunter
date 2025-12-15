@@ -7,92 +7,72 @@
         "x": 1240,
         "y": 150
     },
+    "spikeSpawner": {
+        "interval": 4000,
+        "lilfespan": 2000
+    },
+    "fireSpawner": {
+        "interval": 10000,
+        "lilfespan": 8200
+    },
     "spikes": [
         {
             "x": 480,
-            "y": 540,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 540
         },
         {
             "x": 570,
-            "y": 450,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 450
         },
         {
             "x": 600,
-            "y": 420,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 420
         },
         {
             "x": 270,
-            "y": 210,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 210
         },
         {
             "x": 210,
-            "y": 240,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 240
         },
         {
             "x": 210,
-            "y": 180,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 180
         },
         {
             "x": 330,
-            "y": 240,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 240
         },
         {
             "x": 900,
-            "y": 390,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 390
         },
         {
             "x": 930,
-            "y": 390,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 390
         },
         {
             "x": 960,
-            "y": 390,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 390
         }
     ],
     "fires": [
         {
             "x": 600,
-            "y": 245,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 245
         },
         {
             "x": 630,
-            "y": 245,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 245
         },
         {
             "x": 660,
-            "y": 245,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 245
         },
         {
             "x": 690,
-            "y": 245,
-            "interval": 2000,
-            "lilfespan": 1000
+            "y": 245
         }
     ],
     "dragons": [

@@ -7,20 +7,24 @@ class HomeScene extends Phaser.Scene {
         this.load.image('wall', 'assets/sprites/wall.png');
 
         this.load.spritesheet('hunter', 'assets/spritesheets/treasure_hunter.png', {
-            frameWidth: 32,
-            frameHeight: 32,
-            margin: 1,
-            spacing: 1
-        });
-
-        this.load.spritesheet('fire', 'assets/spritesheets/fire.png', {
-            frameWidth: 28,
+            frameWidth: 31,
             frameHeight: 30,
             margin: 1,
             spacing: 1
         });
 
+        this.load.spritesheet('fire', 'assets/spritesheets/fire.png', {
+            frameWidth: 20,
+            frameHeight: 21,
+            margin: 1,
+            spacing: 1
+        });
+
         this.load.json('descriptionTexts', 'assets/json/descriptionScene.json');
+        this.load.json('levelData', 'assets/json/level.json');
+
+        this.load.audio('winSound', 'assets/sounds/victory.mp3');
+        this.load.audio('loseSound', 'assets/sounds/lose.mp3');
     }
     create() {
         const bg = this.add.sprite(0, 0, 'background');
@@ -37,7 +41,7 @@ class HomeScene extends Phaser.Scene {
         Phaser.Display.Align.In.Center(startBtnBg, bg, 0, -45);
         startBtnBg.setInteractive();
         startBtnBg.on(Phaser.Input.Events.POINTER_DOWN, () => {
-            //this.scene.start('game');
+            this.scene.start('game');
             console.log('start game pressed');
         });
 
